@@ -2,6 +2,7 @@ import React from 'react';
 //import 'bulma';
 import './styles/App.scss';
 import logo from './img/Utah_Utes_logo.svg'
+import Color from 'color';
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
           </div>
         </div>
       </nav>
-      <section class="hero is-primary is-bold" style={{backgroundImage: 'linear-gradient(141deg, #99001a 0%, #cc0000 71%, #e62600 100%)'}}>
+      <section class="hero is-primary is-bold" style={{backgroundImage: createGradient('#CC0000')}}>
         <div class="hero-body">
           <div class="container">
             <nav class="level">
@@ -162,6 +163,14 @@ function App() {
       </section>
     </div>
   );
+}
+
+function createGradient(color) {
+  let base = Color(color).hsl();
+  let lighter = base.rotate(10).lightness(base.lightness() + 5);
+  let darker = base.rotate(-10).lightness(base.lightness() - 10);
+
+  return `linear-gradient(141deg, ${darker} 0%, ${base} 71%, ${lighter} 100%)`
 }
 
 export default App;
