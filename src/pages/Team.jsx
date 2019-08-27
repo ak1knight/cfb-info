@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-//import logo from '../img/Utah_Utes_logo.svg'
 import Color from 'color';
+import Schedule from '../components/Schedule';
 
 function Team(props) {
     let [logo, setLogo] = useState("");
@@ -17,7 +17,7 @@ function Team(props) {
                                 <div class="level-item">
                                     <div>
                                         <p class="title">
-                                            {props.team.name}
+                                            {`${props.team.name} ${props.team.mascot}`}
                                         </p>
                                         <p class="heading">
                                             {props.team.city}
@@ -40,93 +40,7 @@ function Team(props) {
             <section class="section">
                 <div className="container">
                     <div class="tile is-ancestor">
-                        <div class="tile is-6 is-vertical is-parent">
-                            <div class="tile is-child title">
-                                Schedule
-                            </div>
-                            <div class="tile is-child box">
-                                <div class="level">
-                                    <div className="level-left">
-                                        <div class="level-item has-text-centered">
-                                            <div>
-                                                <figure class="image is-64x64">
-                                                    <img src={logo ? logo : ""} />
-                                                </figure>
-                                                <p className="heading">Utah</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="level-item has-text-centered">
-                                        <div>
-                                            <h1 class="title">@</h1>
-                                        </div>
-                                    </div>
-                                    <div className="level-right">
-                                        <div class="level-item has-text-centered">
-                                            <div>
-                                                <figure class="image is-64x64">
-                                                    <img src={logo ? logo : ""} />
-                                                </figure>
-                                                <p className="heading">Utah</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="level">
-                                    <div className="level-left">
-                                        <p className="level-item heading">Salt Lake City, UT</p>
-                                    </div>
-                                    <div className="level-right">
-                                        <p className="level-item heading">October 10, 2019</p>
-                                        <p className="level-item heading">8:00 PM</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tile is-child box">
-                                <div class="level">
-                                    <div className="level-left">
-                                        <div class="level-item has-text-centered">
-                                            <div>
-                                                <figure class="image is-64x64">
-                                                    <img src={logo ? logo : ""} />
-                                                </figure>
-                                                <p className="heading">Utah</p>
-                                            </div>
-                                        </div>
-                                        <div class="level-item has-text-centered">
-                                            <h1 class="title">17</h1>
-                                        </div>
-                                    </div>
-                                    <div class="level-item has-text-centered">
-                                        <div>
-                                            <h1 class="title">-</h1>
-                                        </div>
-                                    </div>
-                                    <div className="level-right">
-                                        <div class="level-item has-text-centered">
-                                            <h1 class="title">24</h1>
-                                        </div>
-                                        <div class="level-item has-text-centered">
-                                            <div>
-                                                <figure class="image is-64x64">
-                                                    <img src={logo ? logo : ""} />
-                                                </figure>
-                                                <p className="heading">Utah</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="level">
-                                    <div className="level-left">
-                                        <p className="level-item heading">Salt Lake City, UT</p>
-                                    </div>
-                                    <div className="level-right">
-                                        <p className="level-item heading">October 10, 2019</p>
-                                        <p className="level-item heading">8:00 PM</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <Schedule games={props.team.games} />
                         <div class="tile is-parent">
                             <div class="tile is-child box">
                                 <p class="title">Three</p>

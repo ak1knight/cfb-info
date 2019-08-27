@@ -31,6 +31,10 @@ $input-shadow: none;
 
 .image {
     display: flex;
+
+    &.is-right {
+        justify-content: flex-end;
+    }
 }
 
 img {
