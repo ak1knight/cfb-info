@@ -146,7 +146,7 @@ function App() {
           </div>
         </div>
       </nav>
-      {teams.map((team, i) => <Team team={team} key={i} />)}
+      {teams.map((team, i) => <Team team={team} teamId={i} key={i} />)}
     </div>
   );
 }

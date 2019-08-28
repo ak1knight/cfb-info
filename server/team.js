@@ -19,63 +19,21 @@ let teams = [
         mascot: "Aggies",
         city: "Logan, UT",
         color: "#0F2439",
-        logo: "Utah_State_Aggies_logo.svg",
-        games: [
-            {
-                homeTeam: 1,
-                awayTeam: 2,
-                date: new Date()
-            },
-            {
-                homeTeam: 3,
-                awayTeam: 1,
-                date: new Date(),
-                homeScore: 27,
-                awayScore: 34
-            }
-        ]
+        logo: "Utah_State_Aggies_logo.svg"
     },
     {
         name: "Texas",
         mascot: "Longhorns",
         city: "Austin, TX",
         color: "#BF5700",
-        logo: "Texas_Longhorns_logo.svg",
-        games: [
-            {
-                homeTeam: 1,
-                awayTeam: 2,
-                date: new Date()
-            },
-            {
-                homeTeam: 3,
-                awayTeam: 1,
-                date: new Date(),
-                homeScore: 27,
-                awayScore: 34
-            }
-        ]
+        logo: "Texas_Longhorns_logo.svg"
     },
     {
         name: "LSU",
         mascot: "Tigers",
         city: "Baton Rouge, LA",
         color: "#461D7C",
-        logo: "LSU_Athletics_logo.svg",
-        games: [
-            {
-                homeTeam: 1,
-                awayTeam: 2,
-                date: new Date()
-            },
-            {
-                homeTeam: 3,
-                awayTeam: 1,
-                date: new Date(),
-                homeScore: 27,
-                awayScore: 34
-            }
-        ]
+        logo: "LSU_Athletics_logo.svg"
     }
 ]
 

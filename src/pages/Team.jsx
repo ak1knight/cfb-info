@@ -1,9 +1,13 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Color from 'color';
 import Schedule from '../components/Schedule';
+import Axios from 'axios';
 
 function Team(props) {
     let [logo, setLogo] = useState("");
+    let [games, setGames] = useState([]);
+
+    useEffect(() => { Axios.get(`http://localhost:5000/games/team/${props.teamId}`).then(res => res.data).then(setGames) }, []);
 
     import(/* webpackMode: "eager" */ `../img/${props.team.logo}`).then(src => setLogo(src.default));
 
@@ -40,7 +44,7 @@ function Team(props) {
             <section class="section">
                 <div className="container">
                     <div class="tile is-ancestor">
-                        <Schedule games={props.team.games} />
+                        <Schedule games={games} />
                         <div class="tile is-parent">
                             <div class="tile is-child box">
                                 <p class="title">Three</p>
