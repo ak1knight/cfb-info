@@ -1,5 +1,6 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {teams} from '../App';
+import Axios from 'axios';
 
 export default function Game(props) {
     let {game} = props;
@@ -7,8 +8,10 @@ export default function Game(props) {
     let [homeLogo, setHomeLogo] = useState("");
     let [awayLogo, setAwayLogo] = useState("");
 
-    import(/* webpackMode: "eager" */ `../img/${allTeams[props.game.homeTeam].logo}`).then(src => setHomeLogo(src.default));
-    import(/* webpackMode: "eager" */ `../img/${allTeams[props.game.awayTeam].logo}`).then(src => setAwayLogo(src.default));
+    useEffect(() => {
+        Axios.get(`http://localhost:5000/team/${props.game.homeTeam}`).then(res => import(/* webpackMode: "eager" */ `../img/${res.data.logo}`).then(src => setHomeLogo(src.default)));
+        Axios.get(`http://localhost:5000/team/${props.game.awayTeam}`).then(res => import(/* webpackMode: "eager" */ `../img/${res.data.logo}`).then(src => setAwayLogo(src.default)));
+    }, []);
 
     return (
         <div class="tile is-child box">
@@ -50,8 +53,8 @@ export default function Game(props) {
                     <p className="level-item heading">{teams[game.homeTeam].city}</p>
                 </div>
                 <div className="level-right">
-                    <p className="level-item heading">{game.date.toLocaleDateString(undefined, {month: 'long', day: 'numeric', year: 'numeric'})}</p>
-                    <p className="level-item heading">{game.date.toLocaleTimeString(undefined, {hour: 'numeric', minute: '2-digit'})}</p>
+                    <p className="level-item heading">{new Date(game.date).toLocaleDateString(undefined, {month: 'long', day: 'numeric', year: 'numeric'})}</p>
+                    <p className="level-item heading">{new Date(game.date).toLocaleTimeString(undefined, {hour: 'numeric', minute: '2-digit'})}</p>
                 </div>
             </div>
         </div>

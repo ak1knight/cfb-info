@@ -7,7 +7,7 @@ export default function Schedule(props) {
             <div class="tile is-child title">
                 Schedule
             </div>
-            {props.games.map(game => <Game game={game} />)}
+            {props.games.map((game, i) => <Game game={game} key={i} />)}
         </div>
     );
 }

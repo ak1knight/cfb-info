@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 //import 'bulma';
 import './styles/App.scss';
 import Team from './pages/Team'
+import Axios from 'axios';
 
 export let teams = [
   {
@@ -112,6 +113,10 @@ export let teams = [
 ]
 
 function App() {
+  let [teams, setTeams] = useState([]);
+
+  useEffect(() => { Axios.get('http://localhost:5000/teams').then(res => res.data).then(setTeams) }, []);
+
   return (
     <div>
       <nav class="navbar" role="navigation" aria-label="main navigation">
