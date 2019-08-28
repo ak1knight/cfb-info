@@ -43,11 +43,30 @@ function Team(props) {
             </section>
             <section class="section">
                 <div className="container">
-                    <div class="tile is-ancestor">
-                        <Schedule games={games} />
-                        <div class="tile is-parent">
-                            <div class="tile is-child box">
-                                <p class="title">Three</p>
+                    <div class="columns">
+                        <div class="column is-two-thirds">
+                            <Schedule games={games} />
+                        </div>
+                        <div class="column">
+                            <div class="tile is-vertical is-ancestor">
+                                <div className="tile is-parent">
+                                    <article class="message tile is-child">
+                                        <div class="message-header">
+                                            <p>About</p>
+                                        </div>
+                                        <div class="message-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
+                                        </div>
+                                    </article>
+                                </div>
+                                <div className="tile is-parent">
+                                    <div className="tile">
+                                        <p>Test</p>
+                                    </div>
+                                    <div class="tile is-child box">
+                                        <p>Test</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
