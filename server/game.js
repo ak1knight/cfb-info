@@ -1,44 +1,12 @@
 
-let games = [
-    {
-        homeTeam: 1,
-        awayTeam: 0,
-        date: new Date('8/29/2019 8:15 PM')
-    },
-    {
-        homeTeam: 0,
-        awayTeam: 2,
-        date: new Date('9/7/2019 11:00 AM'),
-        homeScore: 27,
-        awayScore: 34
-    },
-    {
-        homeTeam: 1,
-        awayTeam: 2,
-        date: new Date()
-    },
-    {
-        homeTeam: 3,
-        awayTeam: 1,
-        date: new Date(),
-        homeScore: 27,
-        awayScore: 34
-    },
-    {
-        homeTeam: 3,
-        awayTeam: 4,
-        date: new Date(),
-        homeScore: 27,
-        awayScore: 34
-    }
-]
+let games = require('./games.json');
 
 exports.list = function(req, res){
     res.send(games);
 };
 
 exports.listGamesForTeam = function(req, res){
-    res.send(games.filter(game => game.homeTeam == req.params.id || game.awayTeam == req.params.id));
+    res.send(games.filter(game => game.HomeTeamID == req.params.id || game.AwayTeamID == req.params.id));
 };
   
 exports.load = function(req, res, next){

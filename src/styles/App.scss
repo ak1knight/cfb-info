@@ -27,18 +27,41 @@ $input-border-color: transparent;
 $input-shadow: none;
 
 $message-background-color: white;
+$panel-heading-background-color: white;
 
 // Import only what you need from Bulma
 @import "../../node_modules/bulma/bulma.sass";
 
-.image {
-    display: flex;
+// .image {
+//     display: flex;
 
-    &.is-right {
-        justify-content: flex-end;
-    }
+//     &.is-right {
+//         justify-content: flex-end;
+//     }
+// }
+
+.is-horizontal-center {
+    align-content: center;
+}
+
+.is-horizontal-center .image {
+    margin: auto;
+}
+
+.is-vertical {
+    flex-direction: column;
 }
 
 img {
     filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, .4));
+}
+
+.panel {
+    box-shadow: $box-shadow;
+    border-radius: $box-radius;
+}
+
+.panel-block.is-team-info {
+    justify-content: space-between;
+    background-color: white;
 }

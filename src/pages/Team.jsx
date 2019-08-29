@@ -7,13 +7,13 @@ function Team(props) {
     let [logo, setLogo] = useState("");
     let [games, setGames] = useState([]);
 
-    useEffect(() => { Axios.get(`http://localhost:5000/games/team/${props.teamId}`).then(res => res.data).then(setGames) }, []);
+    useEffect(() => { Axios.get(`http://localhost:5000/games/team/${props.team.TeamID}`).then(res => res.data).then(setGames) }, []);
 
-    import(/* webpackMode: "eager" */ `../img/${props.team.logo}`).then(src => setLogo(src.default));
+    //import(/* webpackMode: "eager" */ `../img/${props.team.logo}`).then(src => setLogo(src.default));
 
     return (
         <div>
-            <section class="hero is-primary is-bold" style={{backgroundImage: createGradient(props.team.color)}}>
+            <section class="hero is-primary is-bold" style={{backgroundImage: createGradient(props.team.PrimaryColor), borderBottom: '1px solid white', borderImage: `${createGradient(props.team.SecondaryColor)} 1 / 0px 0px 8px / 0px round`}}>
                 <div class="hero-body">
                     <div class="container">
                         <nav class="level">
@@ -21,10 +21,10 @@ function Team(props) {
                                 <div class="level-item">
                                     <div>
                                         <p class="title">
-                                            {`${props.team.name} ${props.team.mascot}`}
+                                            {`${props.team.School} ${props.team.Name}`}
                                         </p>
                                         <p class="heading">
-                                            {props.team.city}
+                                            {props.team.Conference}
                                         </p>
                                     </div>
                                 </div>
@@ -33,7 +33,7 @@ function Team(props) {
                             <div class="level-right">
                                 <div class="level-item">
                                     <figure class="image is-128x128 is-vcentered">
-                                        <img src={logo ? logo : ""} />
+                                        <img src={props.team.TeamLogoUrl} />
                                     </figure>
                                 </div>
                             </div>
@@ -48,25 +48,33 @@ function Team(props) {
                             <Schedule games={games} />
                         </div>
                         <div class="column">
-                            <div class="tile is-vertical is-ancestor">
-                                <div className="tile is-parent">
-                                    <article class="message tile is-child">
-                                        <div class="message-header">
-                                            <p>About</p>
-                                        </div>
-                                        <div class="message-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.
-                                        </div>
-                                    </article>
+                            <div class="tile is-vertical is-parent">
+                                <div class="tile is-child title">
+                                    Schedule
                                 </div>
-                                <div className="tile is-parent">
-                                    <div className="tile">
-                                        <p>Test</p>
+
+                                <nav class="panel tile is-child">
+                                    {/* <p class="panel-heading">
+                                        Team Facts
+                                    </p> */}
+                                    <div class="panel-block is-team-info">
+                                        <div class="level-left">
+                                            <div class="level-item">
+                                                <p>
+                                                    Stadium:
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="level-right">
+                                            <div class="level-item">
+                                                <p>
+                                                    Rice-Eccles Stadium
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="tile is-child box">
-                                        <p>Test</p>
-                                    </div>
-                                </div>
+                                </nav>
                             </div>
                         </div>
                     </div>

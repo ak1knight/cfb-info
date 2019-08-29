@@ -1,0 +1,1708 @@
+[
+    {
+        "TeamID": 1,
+        "School": "SMU",
+        "Name": "Mustangs",
+        "Conference": "American Athletic - West",
+        "PrimaryColor": "#0033A0",
+        "SecondaryColor": "#C8102E"
+    },
+    {
+        "TeamID": 2,
+        "School": "Temple",
+        "Name": "Owls",
+        "Conference": "American Athletic - East",
+        "PrimaryColor": "#9D2235",
+        "SecondaryColor": "#8A8D8F"
+    },
+    {
+        "TeamID": 3,
+        "School": "UConn",
+        "Name": "Huskies",
+        "Conference": "American Athletic - East",
+        "PrimaryColor": "#000E2F",
+        "SecondaryColor": "#E4002B"
+    },
+    {
+        "TeamID": 4,
+        "School": "Cincinnati",
+        "Name": "Bearcats",
+        "Conference": "American Athletic - East",
+        "PrimaryColor": "#E00122",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 5,
+        "School": "Tulsa",
+        "Name": "Golden Hurricane",
+        "Conference": "American Athletic - West",
+        "PrimaryColor": "#002D72",
+        "SecondaryColor": "#C8102E"
+    },
+    {
+        "TeamID": 6,
+        "School": "Houston",
+        "Name": "Cougars",
+        "Conference": "American Athletic - West",
+        "PrimaryColor": "#C8102E",
+        "SecondaryColor": "#B2B4B2"
+    },
+    {
+        "TeamID": 7,
+        "School": "Memphis",
+        "Name": "Tigers",
+        "Conference": "American Athletic - West",
+        "PrimaryColor": "#003087",
+        "SecondaryColor": "#898D8D"
+    },
+    {
+        "TeamID": 8,
+        "School": "UCF",
+        "Name": "Knights",
+        "Conference": "American Athletic - East",
+        "PrimaryColor": "#BA9B37",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 9,
+        "School": "East Carolina",
+        "Name": "Pirates",
+        "Conference": "American Athletic - East",
+        "PrimaryColor": "#592A8A",
+        "SecondaryColor": "#FDC82F"
+    },
+    {
+        "TeamID": 10,
+        "School": "Tulane",
+        "Name": "Green Wave",
+        "Conference": "American Athletic - West",
+        "PrimaryColor": "#006747",
+        "SecondaryColor": "#418FDE"
+    },
+    {
+        "TeamID": 11,
+        "School": "South Florida",
+        "Name": "Bulls",
+        "Conference": "American Athletic - East",
+        "PrimaryColor": "#006747",
+        "SecondaryColor": "#CFC493"
+    },
+    {
+        "TeamID": 12,
+        "School": "Stony Brook",
+        "Name": "Seawolves",
+        "Conference": null
+    },
+    {
+        "TeamID": 13,
+        "School": "Albany",
+        "Name": "Great Danes",
+        "Conference": null
+    },
+    {
+        "TeamID": 14,
+        "School": "New Hampshire",
+        "Name": "Wildcats",
+        "Conference": null
+    },
+    {
+        "TeamID": 17,
+        "School": "Maine",
+        "Name": "Black Bears",
+        "Conference": null
+    },
+    {
+        "TeamID": 21,
+        "School": "North Carolina",
+        "Name": "Tar Heels",
+        "Conference": "Atlantic Coast - Coastal",
+        "PrimaryColor": "#7BAFD4",
+        "SecondaryColor": "#13294B"
+    },
+    {
+        "TeamID": 22,
+        "School": "Virginia",
+        "Name": "Cavaliers",
+        "Conference": "Atlantic Coast - Coastal",
+        "PrimaryColor": "#232D4B",
+        "SecondaryColor": "#F84C1E"
+    },
+    {
+        "TeamID": 23,
+        "School": "Miami",
+        "Name": "Hurricanes",
+        "Conference": "Atlantic Coast - Coastal",
+        "PrimaryColor": "#F47321",
+        "SecondaryColor": "#005030"
+    },
+    {
+        "TeamID": 24,
+        "School": "Louisville",
+        "Name": "Cardinals",
+        "Conference": "Atlantic Coast - Atlantic",
+        "PrimaryColor": "#AD0000",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 25,
+        "School": "Notre Dame",
+        "Name": "Fighting Irish",
+        "Conference": "FBS Independents",
+        "PrimaryColor": "#0C2340",
+        "SecondaryColor": "#C99700"
+    },
+    {
+        "TeamID": 26,
+        "School": "Duke",
+        "Name": "Blue Devils",
+        "Conference": "Atlantic Coast - Coastal",
+        "PrimaryColor": "#003087",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 27,
+        "School": "Clemson",
+        "Name": "Tigers",
+        "Conference": "Atlantic Coast - Atlantic",
+        "PrimaryColor": "#F56600",
+        "SecondaryColor": "#522D80"
+    },
+    {
+        "TeamID": 28,
+        "School": "Pittsburgh",
+        "Name": "Panthers",
+        "Conference": "Atlantic Coast - Coastal",
+        "PrimaryColor": "#003594",
+        "SecondaryColor": "#FFB81C"
+    },
+    {
+        "TeamID": 29,
+        "School": "Florida State",
+        "Name": "Seminoles",
+        "Conference": "Atlantic Coast - Atlantic",
+        "PrimaryColor": "#782F40",
+        "SecondaryColor": "#CEB888"
+    },
+    {
+        "TeamID": 30,
+        "School": "Syracuse",
+        "Name": "Orange",
+        "Conference": "Atlantic Coast - Atlantic",
+        "PrimaryColor": "#D44500",
+        "SecondaryColor": "#3E3D3C"
+    },
+    {
+        "TeamID": 31,
+        "School": "Virginia Tech",
+        "Name": "Hokies",
+        "Conference": "Atlantic Coast - Coastal",
+        "PrimaryColor": "#630031",
+        "SecondaryColor": "#CF4420"
+    },
+    {
+        "TeamID": 32,
+        "School": "Georgia Tech",
+        "Name": "Yellow Jackets",
+        "Conference": "Atlantic Coast - Coastal",
+        "PrimaryColor": "#B3A369",
+        "SecondaryColor": "#003057"
+    },
+    {
+        "TeamID": 33,
+        "School": "NC State",
+        "Name": "Wolfpack",
+        "Conference": "Atlantic Coast - Atlantic",
+        "PrimaryColor": "#CC0000",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 34,
+        "School": "Wake Forest",
+        "Name": "Demon Deacons",
+        "Conference": "Atlantic Coast - Atlantic",
+        "PrimaryColor": "#9E7E38",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 35,
+        "School": "Boston College",
+        "Name": "Eagles",
+        "Conference": "Atlantic Coast - Atlantic",
+        "PrimaryColor": "#98002E",
+        "SecondaryColor": "#BC9B6A"
+    },
+    {
+        "TeamID": 42,
+        "School": "Kennesaw State",
+        "Name": "Owls",
+        "Conference": null
+    },
+    {
+        "TeamID": 50,
+        "School": "Rhode Island",
+        "Name": "Rams",
+        "Conference": null
+    },
+    {
+        "TeamID": 51,
+        "School": "Duquesne",
+        "Name": "Dukes",
+        "Conference": null
+    },
+    {
+        "TeamID": 52,
+        "School": "Richmond",
+        "Name": "Spiders",
+        "Conference": null
+    },
+    {
+        "TeamID": 53,
+        "School": "Fordham",
+        "Name": "Rams",
+        "Conference": null
+    },
+    {
+        "TeamID": 55,
+        "School": "UMass",
+        "Name": "Minutemen",
+        "Conference": "FBS Independents",
+        "PrimaryColor": "#971B2F",
+        "SecondaryColor": "#572932"
+    },
+    {
+        "TeamID": 58,
+        "School": "Villanova",
+        "Name": "Wildcats",
+        "Conference": null
+    },
+    {
+        "TeamID": 68,
+        "School": "Montana",
+        "Name": "Grizzlies",
+        "Conference": null
+    },
+    {
+        "TeamID": 69,
+        "School": "Weber State",
+        "Name": "Wildcats",
+        "Conference": null
+    },
+    {
+        "TeamID": 70,
+        "School": "Eastern Washington",
+        "Name": "Eagles",
+        "Conference": null
+    },
+    {
+        "TeamID": 71,
+        "School": "North Dakota",
+        "Name": "Fighting Hawks",
+        "Conference": null
+    },
+    {
+        "TeamID": 72,
+        "School": "Idaho State",
+        "Name": "Bengals",
+        "Conference": null
+    },
+    {
+        "TeamID": 73,
+        "School": "Idaho",
+        "Name": "Vandals",
+        "Conference": null
+    },
+    {
+        "TeamID": 74,
+        "School": "Montana State",
+        "Name": "Bobcats",
+        "Conference": null
+    },
+    {
+        "TeamID": 75,
+        "School": "Northern Colorado",
+        "Name": "Bears",
+        "Conference": null
+    },
+    {
+        "TeamID": 76,
+        "School": "Portland State",
+        "Name": "Vikings",
+        "Conference": null
+    },
+    {
+        "TeamID": 77,
+        "School": "Sacramento State",
+        "Name": "Hornets",
+        "Conference": null
+    },
+    {
+        "TeamID": 78,
+        "School": "Southern Utah",
+        "Name": "Thunderbirds",
+        "Conference": null
+    },
+    {
+        "TeamID": 79,
+        "School": "Northern Arizona",
+        "Name": "Lumberjacks",
+        "Conference": null
+    },
+    {
+        "TeamID": 81,
+        "School": "Coastal Carolina",
+        "Name": "Chanticleers",
+        "Conference": "Sun Belt - East",
+        "PrimaryColor": "#006F71",
+        "SecondaryColor": "#A27752"
+    },
+    {
+        "TeamID": 83,
+        "School": "Gardner-Webb",
+        "Name": "Bulldogs",
+        "Conference": null
+    },
+    {
+        "TeamID": 84,
+        "School": "Liberty",
+        "Name": "Flames",
+        "Conference": "FBS Independents",
+        "PrimaryColor": "#990000",
+        "SecondaryColor": "#0A254E"
+    },
+    {
+        "TeamID": 88,
+        "School": "Charleston Southern",
+        "Name": "Buccaneers",
+        "Conference": null
+    },
+    {
+        "TeamID": 89,
+        "School": "Presbyterian College",
+        "Name": "Blue Hose",
+        "Conference": null
+    },
+    {
+        "TeamID": 90,
+        "School": "Campbell",
+        "Name": "Fighting Camels",
+        "Conference": null
+    },
+    {
+        "TeamID": 91,
+        "School": "Iowa",
+        "Name": "Hawkeyes",
+        "Conference": "Big Ten - West",
+        "PrimaryColor": "#FFCD00",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 92,
+        "School": "Maryland",
+        "Name": "Terrapins",
+        "Conference": "Big Ten - East",
+        "PrimaryColor": "#E03A3E",
+        "SecondaryColor": "#FFD520"
+    },
+    {
+        "TeamID": 93,
+        "School": "Indiana",
+        "Name": "Hoosiers",
+        "Conference": "Big Ten - East",
+        "PrimaryColor": "#990000",
+        "SecondaryColor": "#EEEDEB"
+    },
+    {
+        "TeamID": 94,
+        "School": "Purdue",
+        "Name": "Boilermakers",
+        "Conference": "Big Ten - West",
+        "PrimaryColor": "#000000",
+        "SecondaryColor": "#CEB888"
+    },
+    {
+        "TeamID": 95,
+        "School": "Michigan",
+        "Name": "Wolverines",
+        "Conference": "Big Ten - East",
+        "PrimaryColor": "#00274C",
+        "SecondaryColor": "#FFCB05"
+    },
+    {
+        "TeamID": 96,
+        "School": "Wisconsin",
+        "Name": "Badgers",
+        "Conference": "Big Ten - West",
+        "PrimaryColor": "#C5050C",
+        "SecondaryColor": "#FFFFFF"
+    },
+    {
+        "TeamID": 97,
+        "School": "Michigan State",
+        "Name": "Spartans",
+        "Conference": "Big Ten - East",
+        "PrimaryColor": "#18453B",
+        "SecondaryColor": "#FFFFFF"
+    },
+    {
+        "TeamID": 98,
+        "School": "Ohio State",
+        "Name": "Buckeyes",
+        "Conference": "Big Ten - East",
+        "PrimaryColor": "#BB0000",
+        "SecondaryColor": "#666666"
+    },
+    {
+        "TeamID": 99,
+        "School": "Nebraska",
+        "Name": "Cornhuskers",
+        "Conference": "Big Ten - West",
+        "PrimaryColor": "#E41C38",
+        "SecondaryColor": "#FFFFFF"
+    },
+    {
+        "TeamID": 100,
+        "School": "Northwestern",
+        "Name": "Wildcats",
+        "Conference": "Big Ten - West",
+        "PrimaryColor": "#4E2A84",
+        "SecondaryColor": "#FFFFFF"
+    },
+    {
+        "TeamID": 101,
+        "School": "Penn State",
+        "Name": "Nittany Lions",
+        "Conference": "Big Ten - East",
+        "PrimaryColor": "#041E42",
+        "SecondaryColor": "#FFFFFF"
+    },
+    {
+        "TeamID": 102,
+        "School": "Illinois",
+        "Name": "Fighting Illini",
+        "Conference": "Big Ten - West",
+        "PrimaryColor": "#13294B",
+        "SecondaryColor": "#E84A27"
+    },
+    {
+        "TeamID": 103,
+        "School": "Rutgers",
+        "Name": "Scarlet Knights",
+        "Conference": "Big Ten - East",
+        "PrimaryColor": "#CC0033",
+        "SecondaryColor": "#5F6A72"
+    },
+    {
+        "TeamID": 104,
+        "School": "Minnesota",
+        "Name": "Golden Gophers",
+        "Conference": "Big Ten - West",
+        "PrimaryColor": "#7A0019",
+        "SecondaryColor": "#FFCC33"
+    },
+    {
+        "TeamID": 105,
+        "School": "Oklahoma",
+        "Name": "Sooners",
+        "Conference": "Big 12",
+        "PrimaryColor": "#841617",
+        "SecondaryColor": "#FDF9D8"
+    },
+    {
+        "TeamID": 106,
+        "School": "Kansas",
+        "Name": "Jayhawks",
+        "Conference": "Big 12",
+        "PrimaryColor": "#0051BA",
+        "SecondaryColor": "#E8000D"
+    },
+    {
+        "TeamID": 107,
+        "School": "West Virginia",
+        "Name": "Mountaineers",
+        "Conference": "Big 12",
+        "PrimaryColor": "#002855",
+        "SecondaryColor": "#EAAA00"
+    },
+    {
+        "TeamID": 108,
+        "School": "Baylor",
+        "Name": "Bears",
+        "Conference": "Big 12",
+        "PrimaryColor": "#003015",
+        "SecondaryColor": "#FECB00"
+    },
+    {
+        "TeamID": 109,
+        "School": "Texas",
+        "Name": "Longhorns",
+        "Conference": "Big 12",
+        "PrimaryColor": "#BF5700",
+        "SecondaryColor": "#333F48"
+    },
+    {
+        "TeamID": 110,
+        "School": "Iowa State",
+        "Name": "Cyclones",
+        "Conference": "Big 12",
+        "PrimaryColor": "#C8102E",
+        "SecondaryColor": "#F1BE48"
+    },
+    {
+        "TeamID": 111,
+        "School": "Texas Tech",
+        "Name": "Red Raiders",
+        "Conference": "Big 12",
+        "PrimaryColor": "#CC0000",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 112,
+        "School": "Kansas State",
+        "Name": "Wildcats",
+        "Conference": "Big 12",
+        "PrimaryColor": "#512888",
+        "SecondaryColor": "#D1D1D1"
+    },
+    {
+        "TeamID": 113,
+        "School": "Oklahoma State",
+        "Name": "Cowboys",
+        "Conference": "Big 12",
+        "PrimaryColor": "#FF7300",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 114,
+        "School": "TCU",
+        "Name": "Horned Frogs",
+        "Conference": "Big 12",
+        "PrimaryColor": "#4D1979",
+        "SecondaryColor": "#A3A9AC"
+    },
+    {
+        "TeamID": 115,
+        "School": "Hawaii",
+        "Name": "Rainbow Warriors",
+        "Conference": "Mountain West - West",
+        "PrimaryColor": "#024731",
+        "SecondaryColor": "#C8C8C8"
+    },
+    {
+        "TeamID": 118,
+        "School": "UC Davis",
+        "Name": "Aggies",
+        "Conference": null
+    },
+    {
+        "TeamID": 122,
+        "School": "Cal Poly",
+        "Name": "Mustangs",
+        "Conference": null
+    },
+    {
+        "TeamID": 124,
+        "School": "UNCW",
+        "Name": "Seahawks",
+        "Conference": null
+    },
+    {
+        "TeamID": 125,
+        "School": "William & Mary",
+        "Name": "Tribe",
+        "Conference": null
+    },
+    {
+        "TeamID": 126,
+        "School": "James Madison",
+        "Name": "Dukes",
+        "Conference": null
+    },
+    {
+        "TeamID": 127,
+        "School": "Towson",
+        "Name": "Tigers",
+        "Conference": null
+    },
+    {
+        "TeamID": 128,
+        "School": "Hofstra",
+        "Name": "Pride",
+        "Conference": null
+    },
+    {
+        "TeamID": 130,
+        "School": "Elon",
+        "Name": "Phoenix",
+        "Conference": null
+    },
+    {
+        "TeamID": 131,
+        "School": "Northeastern",
+        "Name": "Huskies",
+        "Conference": null
+    },
+    {
+        "TeamID": 133,
+        "School": "Delaware",
+        "Name": "Blue Hens",
+        "Conference": null
+    },
+    {
+        "TeamID": 134,
+        "School": "UAB",
+        "Name": "Blazers",
+        "Conference": "Conference USA - West",
+        "PrimaryColor": "#006341",
+        "SecondaryColor": "#CC8A00"
+    },
+    {
+        "TeamID": 135,
+        "School": "Middle Tennessee",
+        "Name": "Blue Raiders",
+        "Conference": "Conference USA - East",
+        "PrimaryColor": "#0066CC",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 136,
+        "School": "Marshall",
+        "Name": "Thundering Herd",
+        "Conference": "Conference USA - East",
+        "PrimaryColor": "#00B140",
+        "SecondaryColor": "#27251F"
+    },
+    {
+        "TeamID": 137,
+        "School": "Louisiana Tech",
+        "Name": "Bulldogs",
+        "Conference": "Conference USA - West",
+        "PrimaryColor": "#002F8B",
+        "SecondaryColor": "#E31B23"
+    },
+    {
+        "TeamID": 138,
+        "School": "Old Dominion",
+        "Name": "Monarchs",
+        "Conference": "Conference USA - East",
+        "PrimaryColor": "#003057",
+        "SecondaryColor": "#7C878E"
+    },
+    {
+        "TeamID": 139,
+        "School": "UTEP",
+        "Name": "Miners",
+        "Conference": "Conference USA - West",
+        "PrimaryColor": "#FF8200",
+        "SecondaryColor": "#041E42"
+    },
+    {
+        "TeamID": 140,
+        "School": "Florida International",
+        "Name": "Panthers",
+        "Conference": "Conference USA - East",
+        "PrimaryColor": "#081E3F",
+        "SecondaryColor": "#B6862C"
+    },
+    {
+        "TeamID": 141,
+        "School": "North Texas",
+        "Name": "Mean Green",
+        "Conference": "Conference USA - West",
+        "PrimaryColor": "#00853E",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 142,
+        "School": "Charlotte",
+        "Name": "49ers",
+        "Conference": "Conference USA - East",
+        "PrimaryColor": "#046A38",
+        "SecondaryColor": "#B9975B"
+    },
+    {
+        "TeamID": 143,
+        "School": "Southern Mississippi",
+        "Name": "Golden Eagles",
+        "Conference": "Conference USA - West",
+        "PrimaryColor": "#000000",
+        "SecondaryColor": "#FFAB00"
+    },
+    {
+        "TeamID": 144,
+        "School": "Western Kentucky",
+        "Name": "Hilltoppers",
+        "Conference": "Conference USA - East",
+        "PrimaryColor": "#C60C30",
+        "SecondaryColor": "#1E1E1E"
+    },
+    {
+        "TeamID": 145,
+        "School": "Florida Atlantic",
+        "Name": "Owls",
+        "Conference": "Conference USA - East",
+        "PrimaryColor": "#003366",
+        "SecondaryColor": "#CC0000"
+    },
+    {
+        "TeamID": 146,
+        "School": "Rice",
+        "Name": "Owls",
+        "Conference": "Conference USA - West",
+        "PrimaryColor": "#00205B",
+        "SecondaryColor": "#C1C6C8"
+    },
+    {
+        "TeamID": 147,
+        "School": "UTSA",
+        "Name": "Roadrunners",
+        "Conference": "Conference USA - West",
+        "PrimaryColor": "#F15A22",
+        "SecondaryColor": "#0C2340"
+    },
+    {
+        "TeamID": 155,
+        "School": "Youngstown State",
+        "Name": "Penguins",
+        "Conference": null
+    },
+    {
+        "TeamID": 158,
+        "School": "Yale",
+        "Name": "Bulldogs",
+        "Conference": null
+    },
+    {
+        "TeamID": 166,
+        "School": "Monmouth",
+        "Name": "Hawks",
+        "Conference": null
+    },
+    {
+        "TeamID": 177,
+        "School": "Akron",
+        "Name": "Zips",
+        "Conference": "Mid-American - East",
+        "PrimaryColor": "#041E42",
+        "SecondaryColor": "#A89968"
+    },
+    {
+        "TeamID": 178,
+        "School": "Kent State",
+        "Name": "Golden Flashes",
+        "Conference": "Mid-American - East",
+        "PrimaryColor": "#002664",
+        "SecondaryColor": "#EAAB00"
+    },
+    {
+        "TeamID": 179,
+        "School": "Buffalo",
+        "Name": "Bulls",
+        "Conference": "Mid-American - East",
+        "PrimaryColor": "#005BBB",
+        "SecondaryColor": "#FFFFFF"
+    },
+    {
+        "TeamID": 180,
+        "School": "Ohio",
+        "Name": "Bobcats",
+        "Conference": "Mid-American - East",
+        "PrimaryColor": "#00694E",
+        "SecondaryColor": "#CDA077"
+    },
+    {
+        "TeamID": 181,
+        "School": "Bowling Green",
+        "Name": "Falcons",
+        "Conference": "Mid-American - East",
+        "PrimaryColor": "#FE5000",
+        "SecondaryColor": "#4F2C1D"
+    },
+    {
+        "TeamID": 182,
+        "School": "Miami (OH)",
+        "Name": "RedHawks",
+        "Conference": "Mid-American - East",
+        "PrimaryColor": "#B61E2E",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 183,
+        "School": "Toledo",
+        "Name": "Rockets",
+        "Conference": "Mid-American - West",
+        "PrimaryColor": "#15397F",
+        "SecondaryColor": "#FFDA00"
+    },
+    {
+        "TeamID": 184,
+        "School": "Ball State",
+        "Name": "Cardinals",
+        "Conference": "Mid-American - West",
+        "PrimaryColor": "#BA0C2F",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 185,
+        "School": "Central Michigan",
+        "Name": "Chippewas",
+        "Conference": "Mid-American - West",
+        "PrimaryColor": "#6A0032",
+        "SecondaryColor": "#FFC82E"
+    },
+    {
+        "TeamID": 186,
+        "School": "Northern Illinois",
+        "Name": "Huskies",
+        "Conference": "Mid-American - West",
+        "PrimaryColor": "#BA0C2F",
+        "SecondaryColor": "#8A8D8F"
+    },
+    {
+        "TeamID": 187,
+        "School": "Eastern Michigan",
+        "Name": "Eagles",
+        "Conference": "Mid-American - West",
+        "PrimaryColor": "#006633",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 188,
+        "School": "Western Michigan",
+        "Name": "Broncos",
+        "Conference": "Mid-American - West",
+        "PrimaryColor": "#6C4023",
+        "SecondaryColor": "#B5A167"
+    },
+    {
+        "TeamID": 189,
+        "School": "Hampton",
+        "Name": "Pirates",
+        "Conference": null
+    },
+    {
+        "TeamID": 190,
+        "School": "South Carolina State",
+        "Name": "Bulldogs",
+        "Conference": null
+    },
+    {
+        "TeamID": 191,
+        "School": "Norfolk State",
+        "Name": "Spartans",
+        "Conference": null
+    },
+    {
+        "TeamID": 192,
+        "School": "Bethune-Cookman",
+        "Name": "Wildcats",
+        "Conference": null
+    },
+    {
+        "TeamID": 194,
+        "School": "Savannah State",
+        "Name": "Tigers",
+        "Conference": null
+    },
+    {
+        "TeamID": 195,
+        "School": "Howard",
+        "Name": "Bison",
+        "Conference": null
+    },
+    {
+        "TeamID": 196,
+        "School": "North Carolina A&T",
+        "Name": "Aggies",
+        "Conference": null
+    },
+    {
+        "TeamID": 197,
+        "School": "North Carolina Central",
+        "Name": "Eagles",
+        "Conference": null
+    },
+    {
+        "TeamID": 198,
+        "School": "Florida A&M",
+        "Name": "Rattlers",
+        "Conference": null
+    },
+    {
+        "TeamID": 199,
+        "School": "Morgan State",
+        "Name": "Bears",
+        "Conference": null
+    },
+    {
+        "TeamID": 201,
+        "School": "Delaware State",
+        "Name": "Hornets",
+        "Conference": null
+    },
+    {
+        "TeamID": 204,
+        "School": "Illinois State",
+        "Name": "Redbirds",
+        "Conference": null
+    },
+    {
+        "TeamID": 205,
+        "School": "Southern Illinois",
+        "Name": "Salukis",
+        "Conference": null
+    },
+    {
+        "TeamID": 206,
+        "School": "Northern Iowa",
+        "Name": "Panthers",
+        "Conference": null
+    },
+    {
+        "TeamID": 207,
+        "School": "Indiana State",
+        "Name": "Sycamores",
+        "Conference": null
+    },
+    {
+        "TeamID": 208,
+        "School": "Missouri State",
+        "Name": "Bears",
+        "Conference": null
+    },
+    {
+        "TeamID": 211,
+        "School": "Drake",
+        "Name": "Bulldogs",
+        "Conference": null
+    },
+    {
+        "TeamID": 212,
+        "School": "San Diego State",
+        "Name": "Aztecs",
+        "Conference": "Mountain West - West",
+        "PrimaryColor": "#A6192E",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 213,
+        "School": "Fresno State",
+        "Name": "Bulldogs",
+        "Conference": "Mountain West - West",
+        "PrimaryColor": "#DB0032",
+        "SecondaryColor": "#002E6D"
+    },
+    {
+        "TeamID": 214,
+        "School": "New Mexico",
+        "Name": "Lobos",
+        "Conference": "Mountain West - Mountain",
+        "PrimaryColor": "#BA0C2F",
+        "SecondaryColor": "#63666A"
+    },
+    {
+        "TeamID": 215,
+        "School": "Boise State",
+        "Name": "Broncos",
+        "Conference": "Mountain West - Mountain",
+        "PrimaryColor": "#0033A0",
+        "SecondaryColor": "#D64309"
+    },
+    {
+        "TeamID": 216,
+        "School": "Nevada",
+        "Name": "Wolf Pack",
+        "Conference": "Mountain West - West",
+        "PrimaryColor": "#003366",
+        "SecondaryColor": "#807F84"
+    },
+    {
+        "TeamID": 217,
+        "School": "Colorado State",
+        "Name": "Rams",
+        "Conference": "Mountain West - Mountain",
+        "PrimaryColor": "#1E4D2B",
+        "SecondaryColor": "#C8C372"
+    },
+    {
+        "TeamID": 218,
+        "School": "UNLV",
+        "Name": "Rebels",
+        "Conference": "Mountain West - West",
+        "PrimaryColor": "#CF0A2C",
+        "SecondaryColor": "#CAC8C8"
+    },
+    {
+        "TeamID": 219,
+        "School": "Wyoming",
+        "Name": "Cowboys",
+        "Conference": "Mountain West - Mountain",
+        "PrimaryColor": "#492F24",
+        "SecondaryColor": "#FFC425"
+    },
+    {
+        "TeamID": 220,
+        "School": "Utah State",
+        "Name": "Aggies",
+        "Conference": "Mountain West - Mountain",
+        "PrimaryColor": "#0F2439",
+        "SecondaryColor": "#9D968D"
+    },
+    {
+        "TeamID": 221,
+        "School": "Air Force",
+        "Name": "Falcons",
+        "Conference": "Mountain West - Mountain",
+        "PrimaryColor": "#003087",
+        "SecondaryColor": "#8A8D8F"
+    },
+    {
+        "TeamID": 222,
+        "School": "San Jose State",
+        "Name": "Spartans",
+        "Conference": "Mountain West - West",
+        "PrimaryColor": "#0055A2",
+        "SecondaryColor": "#E5A823"
+    },
+    {
+        "TeamID": 223,
+        "School": "Wagner",
+        "Name": "Seahawks",
+        "Conference": null
+    },
+    {
+        "TeamID": 230,
+        "School": "Robert Morris",
+        "Name": "Colonials",
+        "Conference": null
+    },
+    {
+        "TeamID": 232,
+        "School": "Central Connecticut",
+        "Name": "Blue Devils",
+        "Conference": null
+    },
+    {
+        "TeamID": 234,
+        "School": "Tennessee Tech",
+        "Name": "Golden Eagles",
+        "Conference": null
+    },
+    {
+        "TeamID": 235,
+        "School": "Tennessee State",
+        "Name": "Tigers",
+        "Conference": null
+    },
+    {
+        "TeamID": 237,
+        "School": "Eastern Kentucky",
+        "Name": "Colonels",
+        "Conference": null
+    },
+    {
+        "TeamID": 238,
+        "School": "Jacksonville State",
+        "Name": "Gamecocks",
+        "Conference": null
+    },
+    {
+        "TeamID": 239,
+        "School": "Eastern Illinois",
+        "Name": "Panthers",
+        "Conference": null
+    },
+    {
+        "TeamID": 240,
+        "School": "Murray State",
+        "Name": "Racers",
+        "Conference": null
+    },
+    {
+        "TeamID": 241,
+        "School": "UT Martin",
+        "Name": "Skyhawks",
+        "Conference": null
+    },
+    {
+        "TeamID": 242,
+        "School": "Austin Peay",
+        "Name": "Governors",
+        "Conference": null
+    },
+    {
+        "TeamID": 243,
+        "School": "Southeast Missouri State",
+        "Name": "Redhawks",
+        "Conference": null
+    },
+    {
+        "TeamID": 245,
+        "School": "Oregon",
+        "Name": "Ducks",
+        "Conference": "Pac-12 - North",
+        "PrimaryColor": "#154733",
+        "SecondaryColor": "#FEE123"
+    },
+    {
+        "TeamID": 246,
+        "School": "USC",
+        "Name": "Trojans",
+        "Conference": "Pac-12 - South",
+        "PrimaryColor": "#990000",
+        "SecondaryColor": "#FFC72C"
+    },
+    {
+        "TeamID": 247,
+        "School": "Arizona",
+        "Name": "Wildcats",
+        "Conference": "Pac-12 - South",
+        "PrimaryColor": "#CC0033",
+        "SecondaryColor": "#003366"
+    },
+    {
+        "TeamID": 248,
+        "School": "Utah",
+        "Name": "Utes",
+        "Conference": "Pac-12 - South",
+        "PrimaryColor": "#CC0000",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 249,
+        "School": "Washington",
+        "Name": "Huskies",
+        "Conference": "Pac-12 - North",
+        "PrimaryColor": "#4B2E83",
+        "SecondaryColor": "#B7A57A"
+    },
+    {
+        "TeamID": 250,
+        "School": "Colorado",
+        "Name": "Buffaloes",
+        "Conference": "Pac-12 - South",
+        "PrimaryColor": "#000000",
+        "SecondaryColor": "#CFB87C"
+    },
+    {
+        "TeamID": 251,
+        "School": "California",
+        "Name": "Golden Bears",
+        "Conference": "Pac-12 - North",
+        "PrimaryColor": "#003262",
+        "SecondaryColor": "#FDB515"
+    },
+    {
+        "TeamID": 252,
+        "School": "Oregon State",
+        "Name": "Beavers",
+        "Conference": "Pac-12 - North",
+        "PrimaryColor": "#000000",
+        "SecondaryColor": "#DC4405"
+    },
+    {
+        "TeamID": 253,
+        "School": "UCLA",
+        "Name": "Bruins",
+        "Conference": "Pac-12 - South",
+        "PrimaryColor": "#2D68C4",
+        "SecondaryColor": "#F2A900"
+    },
+    {
+        "TeamID": 254,
+        "School": "Stanford",
+        "Name": "Cardinal",
+        "Conference": "Pac-12 - North",
+        "PrimaryColor": "#8C1515",
+        "SecondaryColor": "#4D4F53"
+    },
+    {
+        "TeamID": 255,
+        "School": "Arizona State",
+        "Name": "Sun Devils",
+        "Conference": "Pac-12 - South",
+        "PrimaryColor": "#8C1D40",
+        "SecondaryColor": "#FFC627"
+    },
+    {
+        "TeamID": 256,
+        "School": "Washington State",
+        "Name": "Cougars",
+        "Conference": "Pac-12 - North",
+        "PrimaryColor": "#981E32",
+        "SecondaryColor": "#5E6A71"
+    },
+    {
+        "TeamID": 257,
+        "School": "Bucknell",
+        "Name": "Bison",
+        "Conference": null
+    },
+    {
+        "TeamID": 258,
+        "School": "Navy",
+        "Name": "Midshipmen",
+        "Conference": "American Athletic - West",
+        "PrimaryColor": "#00205B",
+        "SecondaryColor": "#C5B783"
+    },
+    {
+        "TeamID": 260,
+        "School": "Lehigh",
+        "Name": "Mountain Hawks",
+        "Conference": null
+    },
+    {
+        "TeamID": 261,
+        "School": "Colgate",
+        "Name": "Raiders",
+        "Conference": null
+    },
+    {
+        "TeamID": 263,
+        "School": "Army",
+        "Name": "Black Knights",
+        "Conference": "FBS Independents",
+        "PrimaryColor": "#D4BF91",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 264,
+        "School": "Holy Cross",
+        "Name": "Crusaders",
+        "Conference": null
+    },
+    {
+        "TeamID": 266,
+        "School": "Lafayette",
+        "Name": "Leopards",
+        "Conference": null
+    },
+    {
+        "TeamID": 267,
+        "School": "South Carolina",
+        "Name": "Gamecocks",
+        "Conference": "SEC - East",
+        "PrimaryColor": "#73000A",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 268,
+        "School": "Kentucky",
+        "Name": "Wildcats",
+        "Conference": "SEC - East",
+        "PrimaryColor": "#0033A0",
+        "SecondaryColor": "#FFFFFF"
+    },
+    {
+        "TeamID": 269,
+        "School": "LSU",
+        "Name": "Tigers",
+        "Conference": "SEC - West",
+        "PrimaryColor": "#461D7C",
+        "SecondaryColor": "#FDD023"
+    },
+    {
+        "TeamID": 270,
+        "School": "Texas A&M",
+        "Name": "Aggies",
+        "Conference": "SEC - West",
+        "PrimaryColor": "#500000",
+        "SecondaryColor": "#FFFFFF"
+    },
+    {
+        "TeamID": 271,
+        "School": "Florida",
+        "Name": "Gators",
+        "Conference": "SEC - East",
+        "PrimaryColor": "#0021A5",
+        "SecondaryColor": "#FA4616"
+    },
+    {
+        "TeamID": 272,
+        "School": "Georgia",
+        "Name": "Bulldogs",
+        "Conference": "SEC - East",
+        "PrimaryColor": "#BA0C2F",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 273,
+        "School": "Vanderbilt",
+        "Name": "Commodores",
+        "Conference": "SEC - East",
+        "PrimaryColor": "#000000",
+        "SecondaryColor": "#866D4B"
+    },
+    {
+        "TeamID": 274,
+        "School": "Ole Miss",
+        "Name": "Rebels",
+        "Conference": "SEC - West",
+        "PrimaryColor": "#14213D",
+        "SecondaryColor": "#CE1126"
+    },
+    {
+        "TeamID": 275,
+        "School": "Alabama",
+        "Name": "Crimson Tide",
+        "Conference": "SEC - West",
+        "PrimaryColor": "#9E1B32",
+        "SecondaryColor": "#828A8F"
+    },
+    {
+        "TeamID": 276,
+        "School": "Arkansas",
+        "Name": "Razorbacks",
+        "Conference": "SEC - West",
+        "PrimaryColor": "#9D2235",
+        "SecondaryColor": "#FFFFFF"
+    },
+    {
+        "TeamID": 277,
+        "School": "Tennessee",
+        "Name": "Volunteers",
+        "Conference": "SEC - East",
+        "PrimaryColor": "#FF8200",
+        "SecondaryColor": "#58595B"
+    },
+    {
+        "TeamID": 278,
+        "School": "Mississippi State",
+        "Name": "Bulldogs",
+        "Conference": "SEC - West",
+        "PrimaryColor": "#660000",
+        "SecondaryColor": "#FFFFFF"
+    },
+    {
+        "TeamID": 279,
+        "School": "Auburn",
+        "Name": "Tigers",
+        "Conference": "SEC - West",
+        "PrimaryColor": "#0C2340",
+        "SecondaryColor": "#E87722"
+    },
+    {
+        "TeamID": 280,
+        "School": "Missouri",
+        "Name": "Tigers",
+        "Conference": "SEC - East",
+        "PrimaryColor": "#000000",
+        "SecondaryColor": "#F1B82D"
+    },
+    {
+        "TeamID": 281,
+        "School": "Chattanooga",
+        "Name": "Mocs",
+        "Conference": null
+    },
+    {
+        "TeamID": 282,
+        "School": "East Tennessee State",
+        "Name": "Buccaneers",
+        "Conference": null
+    },
+    {
+        "TeamID": 283,
+        "School": "Furman",
+        "Name": "Paladins",
+        "Conference": null
+    },
+    {
+        "TeamID": 284,
+        "School": "Mercer",
+        "Name": "Bears",
+        "Conference": null
+    },
+    {
+        "TeamID": 285,
+        "School": "Wofford",
+        "Name": "Terriers",
+        "Conference": null
+    },
+    {
+        "TeamID": 287,
+        "School": "Western Carolina",
+        "Name": "Catamounts",
+        "Conference": null
+    },
+    {
+        "TeamID": 288,
+        "School": "The Citadel",
+        "Name": "Bulldogs",
+        "Conference": null
+    },
+    {
+        "TeamID": 289,
+        "School": "Samford",
+        "Name": "Bulldogs",
+        "Conference": null
+    },
+    {
+        "TeamID": 290,
+        "School": "VMI",
+        "Name": "Keydets",
+        "Conference": null
+    },
+    {
+        "TeamID": 291,
+        "School": "Stephen F. Austin",
+        "Name": "Lumberjacks",
+        "Conference": null
+    },
+    {
+        "TeamID": 293,
+        "School": "Houston Baptist",
+        "Name": "Huskies",
+        "Conference": null
+    },
+    {
+        "TeamID": 294,
+        "School": "Incarnate Word",
+        "Name": "Cardinals",
+        "Conference": null
+    },
+    {
+        "TeamID": 295,
+        "School": "Sam Houston State",
+        "Name": "Bearkats",
+        "Conference": null
+    },
+    {
+        "TeamID": 296,
+        "School": "Abilene Christian",
+        "Name": "Wildcats",
+        "Conference": null
+    },
+    {
+        "TeamID": 298,
+        "School": "Central Arkansas",
+        "Name": "Bears",
+        "Conference": null
+    },
+    {
+        "TeamID": 299,
+        "School": "McNeese",
+        "Name": "Cowboys",
+        "Conference": null
+    },
+    {
+        "TeamID": 300,
+        "School": "Southeastern Louisiana",
+        "Name": "Lions",
+        "Conference": null
+    },
+    {
+        "TeamID": 301,
+        "School": "Northwestern State",
+        "Name": "Demons",
+        "Conference": null
+    },
+    {
+        "TeamID": 302,
+        "School": "Nicholls",
+        "Name": "Colonels",
+        "Conference": null
+    },
+    {
+        "TeamID": 303,
+        "School": "Lamar",
+        "Name": "Cardinals",
+        "Conference": null
+    },
+    {
+        "TeamID": 304,
+        "School": "Texas Southern",
+        "Name": "Tigers",
+        "Conference": null
+    },
+    {
+        "TeamID": 305,
+        "School": "Southern",
+        "Name": "Jaguars",
+        "Conference": null
+    },
+    {
+        "TeamID": 306,
+        "School": "Jackson State",
+        "Name": "Tigers",
+        "Conference": null
+    },
+    {
+        "TeamID": 307,
+        "School": "Alcorn State",
+        "Name": "Braves",
+        "Conference": null
+    },
+    {
+        "TeamID": 308,
+        "School": "Mississippi Valley State",
+        "Name": "Delta Devils",
+        "Conference": null
+    },
+    {
+        "TeamID": 309,
+        "School": "Alabama A&M",
+        "Name": "Bulldogs",
+        "Conference": null
+    },
+    {
+        "TeamID": 310,
+        "School": "Arkansas-Pine Bluff",
+        "Name": "Golden Lions",
+        "Conference": null
+    },
+    {
+        "TeamID": 311,
+        "School": "Alabama State",
+        "Name": "Hornets",
+        "Conference": null
+    },
+    {
+        "TeamID": 312,
+        "School": "Grambling",
+        "Name": "Tigers",
+        "Conference": null
+    },
+    {
+        "TeamID": 313,
+        "School": "Prairie View",
+        "Name": "Panthers",
+        "Conference": null
+    },
+    {
+        "TeamID": 314,
+        "School": "South Dakota State",
+        "Name": "Jackrabbits",
+        "Conference": null
+    },
+    {
+        "TeamID": 318,
+        "School": "North Dakota State",
+        "Name": "Bison",
+        "Conference": null
+    },
+    {
+        "TeamID": 321,
+        "School": "South Dakota",
+        "Name": "Coyotes",
+        "Conference": null
+    },
+    {
+        "TeamID": 322,
+        "School": "Western Illinois",
+        "Name": "Leathernecks",
+        "Conference": null
+    },
+    {
+        "TeamID": 324,
+        "School": "Louisiana",
+        "Name": "Ragin Cajuns",
+        "Conference": "Sun Belt - West",
+        "PrimaryColor": "#CE181E",
+        "SecondaryColor": "#0A0203"
+    },
+    {
+        "TeamID": 326,
+        "School": "UL Monroe",
+        "Name": "Warhawks",
+        "Conference": "Sun Belt - West",
+        "PrimaryColor": "#800029",
+        "SecondaryColor": "#BD955A"
+    },
+    {
+        "TeamID": 327,
+        "School": "Arkansas State",
+        "Name": "Red Wolves",
+        "Conference": "Sun Belt - West",
+        "PrimaryColor": "#CC092F",
+        "SecondaryColor": "#000000"
+    },
+    {
+        "TeamID": 328,
+        "School": "Georgia State",
+        "Name": "Panthers",
+        "Conference": "Sun Belt - East",
+        "PrimaryColor": "#0039A6",
+        "SecondaryColor": "#C60C30"
+    },
+    {
+        "TeamID": 329,
+        "School": "Georgia Southern",
+        "Name": "Eagles",
+        "Conference": "Sun Belt - East",
+        "PrimaryColor": "#011E41",
+        "SecondaryColor": "#87714D"
+    },
+    {
+        "TeamID": 330,
+        "School": "South Alabama",
+        "Name": "Jaguars",
+        "Conference": "Sun Belt - West",
+        "PrimaryColor": "#00205B",
+        "SecondaryColor": "#BF0D3E"
+    },
+    {
+        "TeamID": 331,
+        "School": "Appalachian State",
+        "Name": "Mountaineers",
+        "Conference": "Sun Belt - East",
+        "PrimaryColor": "#222222",
+        "SecondaryColor": "#FFCC00"
+    },
+    {
+        "TeamID": 332,
+        "School": "Texas State",
+        "Name": "Bobcats",
+        "Conference": "Sun Belt - West",
+        "PrimaryColor": "#501214",
+        "SecondaryColor": "#8D734A"
+    },
+    {
+        "TeamID": 333,
+        "School": "Troy",
+        "Name": "Trojans",
+        "Conference": "Sun Belt - East",
+        "PrimaryColor": "#9E0531",
+        "SecondaryColor": "#919191"
+    },
+    {
+        "TeamID": 336,
+        "School": "BYU",
+        "Name": "Cougars",
+        "Conference": "FBS Independents",
+        "PrimaryColor": "#002E5D",
+        "SecondaryColor": "#FFFFFF"
+    },
+    {
+        "TeamID": 344,
+        "School": "New Mexico State",
+        "Name": "Aggies",
+        "Conference": "FBS Independents",
+        "PrimaryColor": "#861F41",
+        "SecondaryColor": "#97999B"
+    },
+    {
+        "TeamID": 354,
+        "School": "Hardin-Simmons",
+        "Name": "Cowboys",
+        "Conference": null
+    },
+    {
+        "TeamID": 391,
+        "School": "New Mexico Highlands",
+        "Name": "Cowboys",
+        "Conference": null
+    },
+    {
+        "TeamID": 392,
+        "School": "Texas A&M Commerce",
+        "Name": "Lions",
+        "Conference": null
+    },
+    {
+        "TeamID": 393,
+        "School": "Northwestern Oklahoma State",
+        "Name": "Rangers",
+        "Conference": null
+    }
+]

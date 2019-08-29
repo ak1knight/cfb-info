@@ -115,7 +115,7 @@ export let teams = [
 function App() {
   let [teams, setTeams] = useState([]);
 
-  useEffect(() => { Axios.get('http://localhost:5000/teams').then(res => res.data).then(setTeams) }, []);
+  useEffect(() => { Axios.get('http://localhost:5000/teams').then(res => res.data).then(team => setTeams(team.filter(t => t.ConferenceID == 5))) }, []);
 
   return (
     <div>
@@ -146,7 +146,7 @@ function App() {
           </div>
         </div>
       </nav>
-      {teams.map((team, i) => <Team team={team} teamId={i} key={i} />)}
+      {teams.map((team, i) => <Team team={team} key={i} />)}
     </div>
   );
 }

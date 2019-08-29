@@ -5,24 +5,27 @@ import Axios from 'axios';
 export default function Game(props) {
     let {game} = props;
     let allTeams = teams;
-    let [homeLogo, setHomeLogo] = useState("");
-    let [awayLogo, setAwayLogo] = useState("");
+    let [homeTeam, setHomeTeam] = useState("");
+    let [awayTeam, setAwayTeam] = useState("");
 
-    useEffect(() => {
-        Axios.get(`http://localhost:5000/team/${props.game.homeTeam}`).then(res => import(/* webpackMode: "eager" */ `../img/${res.data.logo}`).then(src => setHomeLogo(src.default)));
-        Axios.get(`http://localhost:5000/team/${props.game.awayTeam}`).then(res => import(/* webpackMode: "eager" */ `../img/${res.data.logo}`).then(src => setAwayLogo(src.default)));
-    }, []);
+    useEffect(() => { Axios.get(`http://localhost:5000/team/${game.HomeTeamID}`).then(res => res.data).then(setHomeTeam) }, []);
+    useEffect(() => { Axios.get(`http://localhost:5000/team/${game.AwayTeamID}`).then(res => res.data).then(setAwayTeam) }, []);
+
+    // useEffect(() => {
+    //     Axios.get(`http://localhost:5000/team/${props.game.homeTeam}`).then(res => import(/* webpackMode: "eager" */ `../img/${res.data.logo}`).then(src => setHomeLogo(src.default)));
+    //     Axios.get(`http://localhost:5000/team/${props.game.awayTeam}`).then(res => import(/* webpackMode: "eager" */ `../img/${res.data.logo}`).then(src => setAwayLogo(src.default)));
+    // }, []);
 
     return (
         <div class="tile is-child box">
             <div class="level">
                 <div className="level-left">
                     <div class="level-item has-text-centered">
-                        <div>
-                            <figure class="image is-64x64">
-                                <img src={awayLogo ? awayLogo : ""} />
-                            </figure>
-                            <p className="heading">{teams[game.awayTeam].name}</p>
+                        <div className="is-flex is-vertical is-horizontal-center">
+                            <div class="image is-64x64">
+                                <img src={awayTeam ? awayTeam.TeamLogoUrl : ""} />
+                            </div>
+                            <p className="heading">{awayTeam ? awayTeam.ShortDisplayName : ""}</p>
                         </div>
                     </div>
                     {!!game.awayScore && <div class="level-item has-text-centered">
@@ -39,18 +42,18 @@ export default function Game(props) {
                         <h1 class="title">{game.homeScore}</h1>
                     </div>}
                     <div class="level-item has-text-centered">
-                        <div>
-                            <figure class="image is-64x64">
-                                <img src={homeLogo ? homeLogo : ""} />
-                            </figure>
-                            <p className="heading">{teams[game.homeTeam].name}</p>
+                        <div className="is-flex is-vertical is-horizontal-center">
+                            <div class="image is-64x64">
+                                <img src={homeTeam ? homeTeam.TeamLogoUrl : ""} />
+                            </div>
+                            <p className="heading">{homeTeam ? homeTeam.ShortDisplayName : ""}</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="level">
                 <div className="level-left">
-                    <p className="level-item heading">{teams[game.homeTeam].city}</p>
+                    <p className="level-item heading">{game.Stadium.City}, {game.Stadium.State}</p>
                 </div>
                 <div className="level-right">
                     <p className="level-item heading">{new Date(game.date).toLocaleDateString(undefined, {month: 'long', day: 'numeric', year: 'numeric'})}</p>
