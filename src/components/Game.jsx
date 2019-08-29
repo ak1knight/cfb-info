@@ -53,11 +53,11 @@ export default function Game(props) {
             </div>
             <div className="level">
                 <div className="level-left">
-                    <p className="level-item heading">{game.Stadium.City}, {game.Stadium.State}</p>
+                    <p className="level-item heading">{game.Stadium.Name} - {game.Stadium.City}, {game.Stadium.State}</p>
                 </div>
                 <div className="level-right">
-                    <p className="level-item heading">{new Date(game.date).toLocaleDateString(undefined, {month: 'long', day: 'numeric', year: 'numeric'})}</p>
-                    <p className="level-item heading">{new Date(game.date).toLocaleTimeString(undefined, {hour: 'numeric', minute: '2-digit'})}</p>
+                    <p className="level-item heading">{new Date(game.Day).toLocaleDateString(undefined, {month: 'long', day: 'numeric', year: 'numeric'})}</p>
+                    <p className="level-item heading">{!!game.DateTime ? new Date(game.DateTime).toLocaleTimeString(undefined, {hour: 'numeric', minute: '2-digit'}) : 'TBD'}</p>
                 </div>
             </div>
         </div>
