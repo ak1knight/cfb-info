@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-//import 'bulma';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './styles/App.scss';
 import Team from './pages/Team'
 import Axios from 'axios';
@@ -113,41 +113,39 @@ export let teams = [
 ]
 
 function App() {
-  let [teams, setTeams] = useState([]);
-
-  useEffect(() => { Axios.get('http://localhost:5000/teams').then(res => res.data).then(team => setTeams(team.filter(t => t.ConferenceID == 5))) }, []);
 
   return (
-    <div>
-      <nav class="navbar" role="navigation" aria-label="main navigation">
+    <Router>
+      <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="container">
-          <div class="navbar-brand">
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <div className="navbar-brand">
+            <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
             </a>
           </div>
 
-          <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-              <a class="navbar-item">
+          <div id="navbarBasicExample" className="navbar-menu">
+            <div className="navbar-start">
+              <a className="navbar-item">
                 Teams
               </a>
-              <a class="navbar-item">
+              <a className="navbar-item">
                 Conferences
               </a>
-              <a class="navbar-item">
+              <a className="navbar-item">
                 Players and Coaches
               </a>
             </div>
-            <div class="navbar-end">
+            <div className="navbar-end">
             </div>
           </div>
         </div>
       </nav>
-      {teams.map((team, i) => <Team team={team} key={i} />)}
-    </div>
+
+      <Route path="/team/:id" component={Team} />
+    </Router>
   );
 }
 

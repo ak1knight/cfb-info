@@ -6,34 +6,36 @@ import Axios from 'axios';
 function Team(props) {
     let [logo, setLogo] = useState("");
     let [games, setGames] = useState([]);
+    let [team, setTeam] = useState([]);
 
-    useEffect(() => { Axios.get(`http://localhost:5000/games/team/${props.team.TeamID}`).then(res => res.data).then(setGames) }, []);
+    useEffect(() => { Axios.get(`http://localhost:5000/team/${props.match.params.id}`).then(res => res.data).then(setTeam) }, [props.match.params.id]);  
+    useEffect(() => { !!team && Axios.get(`http://localhost:5000/games/team/${team.TeamID}`).then(res => res.data).then(setGames) }, [team]);
 
-    //import(/* webpackMode: "eager" */ `../img/${props.team.logo}`).then(src => setLogo(src.default));
+    //import(/* webpackMode: "eager" */ `../img/${team.logo}`).then(src => setLogo(src.default));
 
     return (
         <div>
-            <section class="hero is-primary is-bold" style={{backgroundImage: createGradient(props.team.PrimaryColor), borderBottom: '1px solid white', borderImage: `${createGradient(props.team.SecondaryColor)} 1 / 0px 0px 8px / 0px round`}}>
-                <div class="hero-body">
-                    <div class="container">
-                        <nav class="level">
-                            <div class="level-left">
-                                <div class="level-item">
+            <section className="hero is-primary is-bold" style={{backgroundImage: createGradient(team.PrimaryColor), borderBottom: '1px solid white', borderImage: `${createGradient(team.SecondaryColor)} 1 / 0px 0px 8px / 0px round`}}>
+                <div className="hero-body">
+                    <div className="container">
+                        <nav className="level">
+                            <div className="level-left">
+                                <div className="level-item">
                                     <div>
-                                        <p class="title">
-                                            {`${props.team.School} ${props.team.Name}`}
+                                        <p className="title">
+                                            {`${team.School} ${team.Name}`}
                                         </p>
-                                        <p class="heading">
-                                            {props.team.Conference}
+                                        <p className="heading">
+                                            {team.Conference}
                                         </p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="level-right">
-                                <div class="level-item">
-                                    <figure class="image is-128x128 is-vcentered">
-                                        <img src={props.team.TeamLogoUrl} />
+                            <div className="level-right">
+                                <div className="level-item">
+                                    <figure className="image is-128x128 is-vcentered">
+                                        <img src={team.TeamLogoUrl} />
                                     </figure>
                                 </div>
                             </div>
@@ -41,33 +43,33 @@ function Team(props) {
                     </div>
                 </div>
             </section>
-            <section class="section">
+            <section className="section">
                 <div className="container">
-                    <div class="columns">
-                        <div class="column is-two-thirds">
+                    <div className="columns">
+                        <div className="column is-two-thirds">
                             <Schedule games={games} />
                         </div>
-                        <div class="column">
-                            <div class="tile is-vertical is-parent">
-                                <div class="tile is-child title">
+                        <div className="column">
+                            <div className="tile is-vertical is-parent">
+                                <div className="tile is-child title">
                                     Schedule
                                 </div>
 
-                                <nav class="panel tile is-child">
-                                    {/* <p class="panel-heading">
+                                <nav className="panel tile is-child">
+                                    {/* <p className="panel-heading">
                                         Team Facts
                                     </p> */}
-                                    <div class="panel-block is-team-info">
-                                        <div class="level-left">
-                                            <div class="level-item">
+                                    <div className="panel-block is-team-info">
+                                        <div className="level-left">
+                                            <div className="level-item">
                                                 <p>
                                                     Stadium:
                                                 </p>
                                             </div>
                                         </div>
 
-                                        <div class="level-right">
-                                            <div class="level-item">
+                                        <div className="level-right">
+                                            <div className="level-item">
                                                 <p>
                                                     Rice-Eccles Stadium
                                                 </p>

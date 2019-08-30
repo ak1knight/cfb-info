@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {teams} from '../App';
 import Axios from 'axios';
+import {Link} from 'react-router-dom';
 
 export default function Game(props) {
     let {game} = props;
@@ -8,45 +9,44 @@ export default function Game(props) {
     let [homeTeam, setHomeTeam] = useState("");
     let [awayTeam, setAwayTeam] = useState("");
 
-    useEffect(() => { Axios.get(`http://localhost:5000/team/${game.HomeTeamID}`).then(res => res.data).then(setHomeTeam) }, []);
-    useEffect(() => { Axios.get(`http://localhost:5000/team/${game.AwayTeamID}`).then(res => res.data).then(setAwayTeam) }, []);
-
-    // useEffect(() => {
-    //     Axios.get(`http://localhost:5000/team/${props.game.homeTeam}`).then(res => import(/* webpackMode: "eager" */ `../img/${res.data.logo}`).then(src => setHomeLogo(src.default)));
-    //     Axios.get(`http://localhost:5000/team/${props.game.awayTeam}`).then(res => import(/* webpackMode: "eager" */ `../img/${res.data.logo}`).then(src => setAwayLogo(src.default)));
-    // }, []);
+    useEffect(() => { Axios.get(`http://localhost:5000/team/${game.HomeTeamID}`).then(res => res.data).then(setHomeTeam) }, [game]);
+    useEffect(() => { Axios.get(`http://localhost:5000/team/${game.AwayTeamID}`).then(res => res.data).then(setAwayTeam) }, [game]);
 
     return (
-        <div class="tile is-child box">
-            <div class="level">
+        <div className="tile is-child box">
+            <div className="level">
                 <div className="level-left">
-                    <div class="level-item has-text-centered">
+                    <div className="level-item has-text-centered">
                         <div className="is-flex is-vertical is-horizontal-center">
-                            <div class="image is-64x64">
-                                <img src={awayTeam ? awayTeam.TeamLogoUrl : ""} />
-                            </div>
-                            <p className="heading">{awayTeam ? awayTeam.ShortDisplayName : ""}</p>
+                            <Link to={`/team/${game.AwayTeamID}`}>
+                                <div className="image is-64x64">
+                                    <img src={awayTeam ? awayTeam.TeamLogoUrl : ""} />
+                                </div>
+                                <p className="heading">{awayTeam ? awayTeam.ShortDisplayName : ""}</p>
+                            </Link>
                         </div>
                     </div>
-                    {!!game.awayScore && <div class="level-item has-text-centered">
-                        <h1 class="title">{game.awayScore}</h1>
+                    {game.Status === "Final" && <div className="level-item has-text-centered">
+                        <h1 className="title">{game.AwayTeamScore}</h1>
                     </div>}
                 </div>
-                <div class="level-item has-text-centered">
+                <div className="level-item has-text-centered">
                     <div>
-                        <h1 class="title">{!!game.homeScore ? '-' : '@'}</h1>
+                        <h1 className="title">{game.Status === "Final" ? '-' : '@'}</h1>
                     </div>
                 </div>
                 <div className="level-right">
-                    {!!game.homeScore && <div class="level-item has-text-centered">
-                        <h1 class="title">{game.homeScore}</h1>
+                    {game.Status === "Final" && <div className="level-item has-text-centered">
+                        <h1 className="title">{game.HomeTeamScore}</h1>
                     </div>}
-                    <div class="level-item has-text-centered">
+                    <div className="level-item has-text-centered">
                         <div className="is-flex is-vertical is-horizontal-center">
-                            <div class="image is-64x64">
-                                <img src={homeTeam ? homeTeam.TeamLogoUrl : ""} />
-                            </div>
-                            <p className="heading">{homeTeam ? homeTeam.ShortDisplayName : ""}</p>
+                            <Link to={`/team/${game.HomeTeamID}`}>
+                                <div className="image is-64x64">
+                                    <img src={homeTeam ? homeTeam.TeamLogoUrl : ""} />
+                                </div>
+                                <p className="heading">{homeTeam ? homeTeam.ShortDisplayName : ""}</p>
+                            </Link>
                         </div>
                     </div>
                 </div>
