@@ -1,11 +1,9 @@
 import React, {useState, useEffect} from 'react';
-import {teams} from '../App';
 import Axios from 'axios';
 import {Link} from 'react-router-dom';
 
 export default function Game(props) {
     let {game} = props;
-    let allTeams = teams;
     let [homeTeam, setHomeTeam] = useState("");
     let [awayTeam, setAwayTeam] = useState("");
 
@@ -20,9 +18,9 @@ export default function Game(props) {
                         <div className="is-flex is-vertical is-horizontal-center">
                             <Link to={`/team/${game.AwayTeamID}`}>
                                 <div className="image is-64x64">
-                                    <img src={awayTeam ? awayTeam.TeamLogoUrl : ""} />
+                                    <img src={awayTeam ? awayTeam.TeamLogoUrl : ""} alt={awayTeam ? `${awayTeam.School} Logo` : "Away Logo"} />
                                 </div>
-                                <p className="heading">{awayTeam ? awayTeam.ShortDisplayName : ""}</p>
+                                <p className="heading">{awayTeam ? `${!!awayTeam.ApRank ? `#${awayTeam.ApRank} ` : '' }${awayTeam.ShortDisplayName}` : ""}</p>
                             </Link>
                         </div>
                     </div>
@@ -43,9 +41,9 @@ export default function Game(props) {
                         <div className="is-flex is-vertical is-horizontal-center">
                             <Link to={`/team/${game.HomeTeamID}`}>
                                 <div className="image is-64x64">
-                                    <img src={homeTeam ? homeTeam.TeamLogoUrl : ""} />
+                                    <img src={homeTeam ? homeTeam.TeamLogoUrl : ""} alt={homeTeam ? `${homeTeam.School} Logo` : "Home Logo"} />
                                 </div>
-                                <p className="heading">{homeTeam ? homeTeam.ShortDisplayName : ""}</p>
+                                <p className="heading">{homeTeam ? `${!!homeTeam.ApRank ? `#${homeTeam.ApRank} ` : '' }${homeTeam.ShortDisplayName}` : ""}</p>
                             </Link>
                         </div>
                     </div>

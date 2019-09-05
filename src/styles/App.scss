@@ -28,6 +28,7 @@ $input-shadow: none;
 
 $message-background-color: white;
 $panel-heading-background-color: white;
+$panel-heading-radius: 6px;
 
 // Import only what you need from Bulma
 @import "../../node_modules/bulma/bulma.sass";
@@ -58,10 +59,30 @@ img {
 
 .panel {
     box-shadow: $box-shadow;
-    border-radius: $box-radius;
+    border-radius: $panel-heading-radius;
 }
 
-.panel-block.is-team-info {
-    justify-content: space-between;
-    background-color: white;
+.panel-block {
+    border-left: none;
+    border-right: none;
+
+    &:last-child {
+        border-bottom-left-radius: $panel-heading-radius;
+        border-bottom-right-radius: $panel-heading-radius;
+        border-bottom: none;
+    }
 }
+
+.panel-heading {
+    border-left: none;
+    border-right: none;
+
+    &:first-child {
+        border-top: none;
+    }
+}
+
+// .panel-block.is-team-info {
+//     justify-content: space-between;
+//     background-color: white;
+// }
